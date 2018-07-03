@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>About forms</title>
+</head>
+<body>
+	<form>
+		<label for="username"><!--When using for, it doesn't have to nest input inside label like this-->
+			Username: 
+			<input type="text" id="username" name="username" placeholder="username" required></input>
+		</label>
+		<label for="email"><!--When using for, it doesn't have to nest input inside label like this-->
+			Email: 
+			<input type="email" id="email" name="email" placeholder="email" required></input>
+		</label>
+		<label for="password">
+			Password:
+			<input type="password" id="password" name="password" placeholder="password" required></input>
+		</label>
+		<input type="submit">
+	</form>
+</body>
+</html>
