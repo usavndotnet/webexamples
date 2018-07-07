@@ -1,0 +1,25 @@
+h2{
+	color: blue;
+	background-color: rgb(255,0,0);
+}
+h3{
+	color: #FF0000;
+	border-color: purple;
+	border-width: 1px;
+	border-style: double;
+}
+h4{
+	color:rgba(255,0,0,0.2);/* fourth parameter is from 0 to 1 */
+	border: 8px solid purple;/* shortcut syntax of border[-color, -width, -style]*/
+}
+body{
+	background: gray;
+}
+div{
+	background: url(images/usaflag.png);
+	background-repeat: no-repeat;
+	background-size: cover;     
+}
+p{
+	color: white;
+}
